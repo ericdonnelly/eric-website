@@ -31,5 +31,5 @@ def circlepack():
 def bar():
     return render_template('/bar.html')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run()
