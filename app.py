@@ -17,12 +17,6 @@ def welcome():
     return render_template('index.html')
     #return render_template('index.html', data=big_list)
 
-########Drug Deaths & UFO Sightings###########
-
-@app.route("/drugs")
-def drugs():
-    return render_template('drugs.html')
-
 
 ########Circle Pack###########
 
